@@ -1,0 +1,28 @@
+---
+abstract: 'Reliable User ID management'
+author:
+  - 'Leon Timmermans <leont@cpan.org>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  File::Find: 0
+  File::Temp: 0
+  Module::Build: 0.28
+  Test::Exception: 0
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.28
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Unix-ResUID
+requires:
+  Sub::Exporter: 0
+  XSLoader: 0
+  perl: 5.006
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Unix-ResUID
+  repository: git://github.com/Leont/unix-resuid.git
+version: 0.001
